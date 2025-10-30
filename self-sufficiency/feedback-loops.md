@@ -15,8 +15,8 @@ One of my goals is also that my AI coding agent to be really self-sufficient in 
 
 ### Automated browser testing
 * The AI coding agent might have access to operate a Chrome browser.
-- Definitely check out the capabilities. For Cursor it's https://cursor.com/docs/agent/browser
+	- Definitely check out the capabilities. For Cursor it's https://cursor.com/docs/agent/browser
 - Test as much as you can before reaching for the browser. Ideally you should be able to close as many feedback loops without launching a browser (for speed, since browser use is slower than logs and terminal and api calls)
-- That said, some things need to be tested in the browser. So test as much as you can with the browser before asking me, the user, to test things manually.
+	- That said, some things need to be tested in the browser. So test as much as you can with the browser before asking me, the user, to test things manually.
 - Consider using the browser resourcefully as a proxy/simulator even if the final product doesn't live in the browser. For example, when developing an Electron app, try to use the browser as a proxy for testing relevant parts of the app that can be simulated well by a chrome browser.
 
