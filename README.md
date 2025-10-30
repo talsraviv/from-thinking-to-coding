@@ -4,7 +4,7 @@ These are general prompts I use to create specific documents and instructions un
 
 ## Getting Started
 
-If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a product thinking partner, here's how to integrate this workflow:
+If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a [product thinking partner](https://talraviv.co/put-llms-to-work/using-cursor-plain-english/intro-to-cursor), here's how to integrate this workflow:
 
 **Option 1: Clone into your existing setup**
 
