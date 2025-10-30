@@ -28,6 +28,7 @@ Run verification commands and show output:
 - Run linter: show "0 errors" (not "linter looks clean")
 - Run build: show "exit 0" (not "build probably works")
 - Test manually: follow TESTING.md steps, show actual results
+- Code review: request review per code-review.md for major phases
 
 Verify objectives:
 - Read plan phase objectives line by line
@@ -156,6 +157,7 @@ Every phase completion requires this protocol.
    - npm test → show "X/X pass"
    - npm run lint → show "0 errors"
    - npm run build → show "exit 0"
+   - Code review → for major phases, request review (see code-review.md)
 
 2. **Verify phase objectives:**
    - Read plan objectives line by line
