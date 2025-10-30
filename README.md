@@ -2,6 +2,22 @@ A systematic workflow for moving from product idea to working software with an A
 
 These are general prompts I use to create specific documents and instructions unique to individual initiatives. The resulting documents guide AI agents through the complete development lifecycle.
 
+## Getting Started
+
+If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a product thinking partner, here's how to integrate this workflow:
+
+**Option 1: Clone into your existing setup**
+
+Tell your AI coding agent:
+```
+Let's clone [insert URL of this repo above] into this directory.
+```
+
+**Option 2: Download and drag**
+Download the zip file from GitHub and drag the `from thinking to coding` directory into your existing AI copilot directory. Your AI agent will then be able to reference these templates using `@from thinking to coding/`.
+
+Once integrated, the AI can see and use these templates when you reference them with `@` mentions in your conversations.
+
 ## How to Use
 
 Example: "I want to build a children's science museum version of ChatGPT demonstrating visibly how extended thinking works."
