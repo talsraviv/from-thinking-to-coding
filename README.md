@@ -22,7 +22,7 @@ Once integrated, the AI can see and use these templates when you reference them 
 
 Example: "I want to build a children's science museum version of ChatGPT demonstrating visibly how extended thinking works."
 
-### 1. Write your product opportunity assessment (yourself)
+### 1. Write your product opportunity assessment (before using these prompts)
 
 Draft a document covering the "why" and high-level "what" - the product opportunity, user needs, success criteria, and what you're building.
 
