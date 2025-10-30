@@ -11,16 +11,3 @@ Example: "I want to build a chat app with extended thinking"
 3. Use `@2-create-a-plan/` → AI adds phased implementation plan
 4. Use `@3-create-agent-instructions/` → AI creates/updates AGENTS.md
 5. Execute with agent using spec + AGENTS.md + plan as guides
-
-## What's Inside
-
-- [1-create-a-spec/](1-create-a-spec/) - Turn opportunity into detailed technical specification
-- [2-create-a-plan/](2-create-a-plan/) - Convert spec into phased implementation plan
-- [3-create-agent-instructions/](3-create-agent-instructions/) - Create project-specific AGENTS.md
-- [self-sufficiency/](self-sufficiency/) - Reusable guidelines for agent autonomy
-- [style-guide.md](style-guide.md) - Central writing style guide
-
-## Cross-Reference Notation
-
-When referencing shared content in your own projects, use `@` notation to attach directories or files in your AI chat.
-
