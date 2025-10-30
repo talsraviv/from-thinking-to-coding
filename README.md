@@ -10,7 +10,11 @@ If you're already using an AI coding agent (like Cursor, Claude Code, or similar
 
 Tell your AI coding agent:
 ```
-Let's clone https://github.com/talsraviv/from-thinking-to-coding into this directory.
+Let's clone 
+
+https://github.com/talsraviv/from-thinking-to-coding 
+
+into this directory.
 ```
 
 #### Option 2: Download and drag
