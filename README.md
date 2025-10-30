@@ -11,3 +11,7 @@ Example: "I want to build a chat app with extended thinking"
 3. Use `@2-create-a-plan/` → AI adds phased implementation plan
 4. Use `@3-create-agent-instructions/` → AI creates/updates AGENTS.md
 5. Execute with agent using spec + AGENTS.md + plan as guides
+
+## Acknowledgements
+
+I got tons of inspiration from [Jesse Vincent](https://github.com/obra), especially [this blog post](https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/) and this [repository](https://github.com/obra/superpowers).
