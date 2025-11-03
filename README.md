@@ -1,8 +1,12 @@
-A systematic workflow for moving from product idea to working software with an AI coding a agents as partner.
+This is how I move from product thinking to a "working proof of concept" (i.e. more than a shallow prototype, less than production code) with an AI coding agent.
 
 These are general prompts I use to create specific documents and instructions unique to individual initiatives. The resulting documents guide AI agents through the complete development lifecycle.
 
 ## Getting Started
+
+Here's a [video walkthrough](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you) of how I use this repository, without writing a line of code:
+
+[video thumbnail.png](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you)
 
 If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a [product thinking partner](https://talraviv.co/put-llms-to-work/using-cursor-plain-english/intro-to-cursor), here's how to integrate this workflow:
 
