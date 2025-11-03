@@ -19,7 +19,7 @@ Let's clone
 
 https://github.com/talsraviv/from-thinking-to-coding 
 
-into this directory.
+into a new top-level directory in this project called "Prototyping prompts"
 ```
 
 #### Option 2: Download and drag
