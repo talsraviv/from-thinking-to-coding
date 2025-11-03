@@ -1,10 +1,10 @@
-This is how I move from product thinking to a "working proof of concept" (i.e. more than a shallow prototype, less than production code) with an AI coding agent.
+This is how I move from using coding agents as a [product thinking partner](https://talraviv.co/put-llms-to-work/using-cursor-plain-english/intro-to-cursor) to building a "working proof of concept" (i.e. more than a shallow prototype, less than production code) with an AI coding agent.
 
-These are general prompts I use to create specific documents and instructions unique to individual initiatives. The resulting documents guide AI agents through the complete development lifecycle.
+_TLDR: These are prompts I use to create a spec, plan, and agents file, and then I just have to say "let's execute."_
 
 ## Getting Started
 
-If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a [product thinking partner](https://talraviv.co/put-llms-to-work/using-cursor-plain-english/intro-to-cursor), here's a [video walkthrough](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you). The steps are also written out below.
+If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a product thinking partner, here's a [video walkthrough](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you). The steps are also written out below.
 
 <a target="_blank" href="https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you"><img width="742" height="481" alt="video thumbnail" src="https://github.com/user-attachments/assets/98ee291d-b9e1-48c8-8c90-350d53123669" /></a>
 
