@@ -8,7 +8,7 @@ If you're already using an AI coding agent (like Cursor, Claude Code, or similar
 
 <a target="_blank" href="https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you"><img width="742" height="481" alt="video thumbnail" src="https://github.com/user-attachments/assets/98ee291d-b9e1-48c8-8c90-350d53123669" /></a>
 
-The UI library in the video is [Wired Elements](https://github.com/rough-stuff/wired-elements).
+_The UI library in the video is [Wired Elements](https://github.com/rough-stuff/wired-elements)._
 
 #### Option 1: Clone into your existing setup
 
