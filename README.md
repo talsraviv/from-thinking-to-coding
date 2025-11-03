@@ -4,12 +4,12 @@ These are general prompts I use to create specific documents and instructions un
 
 ## Getting Started
 
-Here's a [video walkthrough](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you) of how I use this repository, without writing a line of code:
+If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a [product thinking partner](https://talraviv.co/put-llms-to-work/using-cursor-plain-english/intro-to-cursor), here's a [video walkthrough](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you). The steps are also written out below.
 
 <a target="_blank" href="https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you"><img width="742" height="481" alt="video thumbnail" src="https://github.com/user-attachments/assets/98ee291d-b9e1-48c8-8c90-350d53123669" /></a>
 
 
-If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a [product thinking partner](https://talraviv.co/put-llms-to-work/using-cursor-plain-english/intro-to-cursor), here's how to integrate this workflow:
+
 
 #### Option 1: Clone into your existing setup
 
