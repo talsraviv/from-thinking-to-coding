@@ -6,7 +6,7 @@ These are general prompts I use to create specific documents and instructions un
 
 Here's a [video walkthrough](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you) of how I use this repository, without writing a line of code:
 
-[video thumbnail.png](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you)
+[(video thumbnail.png)](https://talraviv.co/put-llms-to-work/product-thinking-to-prototyping#and-so-can-you)
 
 If you're already using an AI coding agent (like Cursor, Claude Code, or similar) as a [product thinking partner](https://talraviv.co/put-llms-to-work/using-cursor-plain-english/intro-to-cursor), here's how to integrate this workflow:
 
