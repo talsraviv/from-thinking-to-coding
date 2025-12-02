@@ -82,7 +82,24 @@ Verify objectives:
 - Offer to wait while user tests
 - Ask "Is there anything else about this phase before we move on?"
 
-### 6. Commit Readiness
+### 6. Memory Sweep
+
+**Before committing, capture what was learned:**
+
+Ask: "What did I learn this session that future sessions need to know?"
+
+Check:
+- [ ] Any gotchas discovered? → Add to AGENTS.md
+- [ ] Any patterns that worked well? → Add to AGENTS.md
+- [ ] Any divergence from spec? → Update spec with decision + rationale
+- [ ] Any new capabilities? → Update README current status
+- [ ] Any new testing needed? → Update TESTING.md
+
+**Don't let hard-won knowledge die with this session.**
+
+See `continuous-memory.md` for the full principle.
+
+### 7. Commit Readiness
 
 **If committing at wrap-up, the agent should:**
 - Suggest a clear commit message describing what was built
@@ -177,7 +194,9 @@ Every phase completion requires this protocol.
 
 6. **Wait for my confirmation**
 
-7. **Offer to commit:** "[phase description]"
+7. **Memory sweep:** Capture learnings in AGENTS.md/spec
+
+8. **Offer to commit:** "[phase description]"
 
 ### Never proceed to next phase without my confirmation.
 

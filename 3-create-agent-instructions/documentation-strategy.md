@@ -1,51 +1,65 @@
 # Documentation
 
-## Keep it minimal - consolidate when possible.
+## Documentation as Memory
 
-## Standard docs (usually 3 files is enough)
+LLMs are stateless. Documentation is how knowledge persists across sessions.
 
-1. **README.md** - What this is, current status, how to run/test, implementation progress
-2. **AGENTS.md** - How to work on this project (timeless guidance)
-3. **TESTING.md** - Manual QA procedures for each feature
+Every session that learns something and doesn't capture it wastes that learning. The next session will rediscover it from scratch — or worse, make the same mistakes.
 
-## Avoid creating
+**The bar:** Could you delete the codebase and rebuild from the docs alone, with all decisions and learnings preserved?
+
+See `continuous-memory.md` for the full principle.
+
+## Keep It Minimal — Consolidate When Possible
+
+### Standard docs (usually 3 files is enough)
+
+1. **README.md** — What this is, current status, how to run/test, implementation progress
+2. **AGENTS.md** — Map, purpose, and how to work on this project (timeless guidance)
+3. **TESTING.md** — Manual QA procedures for each feature
+
+### Avoid creating
 
 - STATUS.md (put current status in README instead)
 - CHANGELOG.md (use git commits)
 - Redundant architecture diagrams (one in spec is enough)
 - Phase-specific temporary docs
 
-## Write docs as you go so a fresh AI agent or person could pick up the work
+## Write Docs as You Go
 
-- Update README.md with: what this is, current status, how to run it, how to test it
-- Update AGENTS.md with: patterns used, key decisions, gotchas (keep timeless, not status)
-- Update TESTING.md with: manual QA steps as features are added
-- Document API keys early: what to get, where to put it, .env.example with placeholder
+Update in real-time, not just at wrap-up:
 
-## Reference the spec clearly in all docs
+- **README.md**: What this is, current status, how to run it, how to test it
+- **AGENTS.md**: Patterns used, key decisions, gotchas (keep timeless, not status)
+- **TESTING.md**: Manual QA steps as features are added
+- **API keys**: Document early — what to get, where to put it, .env.example with placeholder
+
+A fresh AI agent or person should be able to pick up the work from these docs.
+
+## Reference the Spec Clearly
 
 - State where spec/plan lives (especially if outside code directory)
 - Use relative paths from the code directory
 - Mark it as "source of truth" for requirements
 
-Why: "An LLM can only keep a subset of the codebase in its context at once. Being able to feed in relevant documentation lets it use APIs from other areas without reading the code first." - Simon Willison
+Why: "An LLM can only keep a subset of the codebase in its context at once. Being able to feed in relevant documentation lets it use APIs from other areas without reading the code first." — Simon Willison
 
 State the working directory clearly up front and stick to it throughout.
 
-## Keep docs in sync
+## Keep Docs in Sync
 
 - When you make changes, update all docs that reference them (README, comments)
-- Keep things in sync - don't let docs drift from code
+- Keep things in sync — don't let docs drift from code
 
 ## Keep Spec/Plan in Sync with Implementation
 
 **The Challenge:** Specs are written before implementation. Reality often reveals better approaches. If you only update code docs (README, TESTING.md), the spec/plan becomes outdated and misleads future work.
 
-_I even aspire to be able to delete the codebase and start all over again from the new spec if needed, and have all the decisions along the way captured because so much is learned while implementing. And then I can even implement a few times just for learning before building the final version! That should be the bar for keeping the spec up to date._
+_The aspiration: be able to delete the codebase and start over from the spec, with all decisions captured. Implement a few times for learning before building the final version. That's the bar for keeping the spec up to date._
 
-**The Pattern:** Guide agents to update the spec document itself when implementation decisions differ from the original plan.
+**The Pattern:** Update the spec document itself when implementation decisions differ from the original plan.
 
-### In AGENTS.md, include guidance that:
+### In AGENTS.md, Include Guidance That:
 
 1. **Identifies when updates are needed**
    - Architectural decisions that differ from spec
@@ -75,7 +89,6 @@ _I even aspire to be able to delete the codebase and start all over again from t
 
 ### Style Notes
 
-- Make it explicit and unavoidable - use words like "CRITICAL" or "MUST"
+- Make it explicit and unavoidable — use words like "CRITICAL" or "MUST"
 - Provide a concrete example from this specific project if possible
-- Keep it actionable - agents should know exactly what to do and when
-
+- Keep it actionable — agents should know exactly what to do and when
