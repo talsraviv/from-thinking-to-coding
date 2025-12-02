@@ -10,7 +10,9 @@ If you're already using an AI coding agent (like Cursor, Claude Code, or similar
 
 _The UI library in the video is [Wired Elements](https://github.com/rough-stuff/wired-elements)._
 
-#### Option 1: Clone into your existing setup
+#### Option 1: Have your AI coding agent copy these prompts into your project directory
+
+Create a fresh new directory for your prototype, and open it in your AI coding agent (or change into it).
 
 Tell your AI coding agent:
 ```
@@ -18,10 +20,11 @@ Let's clone
 
 https://github.com/talsraviv/from-thinking-to-coding 
 
-into a new top-level directory in this project called "Prototyping prompts"
+into a new top-level directory in this project called "from thinking to coding/"
 ```
 
-#### Option 2: Download and drag
+#### Option 2: Download the prompts as a ZIP and drag it into your project directory
+
 Download the zip file from GitHub and drag the `from thinking to coding` directory into your existing AI copilot directory. Your AI agent will then be able to reference these templates using `@from thinking to coding/`.
 
 Once integrated, the AI can see and use these templates when you reference them with `@` mentions in your conversations.
