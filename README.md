@@ -35,11 +35,40 @@ Once integrated, the AI can see and use these templates when you reference them 
 
 Draft a document covering the "why" and high-level "what" - the product opportunity, user needs, success criteria, and what you're building.
 
-If you really wanna wing it, just dictate what you're thinking about building and why into your AI coding agent chat box.
+I love having my AI coding agent guide me conversationally, pulling the context out of me. I'll create a new file called `opportunity assessment.md` and copy my personal favorite headings in there:
 
-"I want to build a children's science museum version of ChatGPT demonstrating visibly how extended thinking works."
+```
+# Objective
 
-If you want to build a learning POC, you might [start with a deep research](https://talraviv.co/from-using-to-building/how-i-built-chatgpt-from-scratch) on the topic you want to prototype.
+# Target customer
+
+# Success
+
+# What I believe
+
+# What I need to research
+
+# Solution directions
+
+# Risks to validate + how to validate them cheaply/quickly
+```
+
+Then I'll ask the AI coding agent to interview me:
+
+```
+I want your help in filling out `@opportunity assessment.md` I want you to converse with me and ask me questions one by one to help fill this out. Let's keep those sections as is and fit into them. 
+
+Think about what's missing, interview me, and pull insights and ideas out of me, and brainstorm with me. 
+
+Let's converse just enough to make a great lightweight doc from our collaboration. Wait on writing the doc until our conversation is done. 
+
+To write the doc, keep it succinct and readable (no filler) but make sure to capture all the gold. Use our original conversation words for the vivid/evocative stuff.
+```
+
+If you really wanna wing it, just dictate what you're thinking about building and why into your AI coding agent chat box, e.g.
+`I want to build a children's science museum version of ChatGPT demonstrating visibly how extended thinking works.`
+
+> Pro tip: If you want to build a learning POC, you might [start with a deep research](https://talraviv.co/from-using-to-building/how-i-built-chatgpt-from-scratch) on the topic you want to prototype and include it at the start of the conversation.
 
 ### 2. Use an AI coding agent to turn it into a detailed technical specification
 
