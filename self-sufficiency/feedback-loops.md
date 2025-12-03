@@ -13,6 +13,26 @@ One of my goals is also that my AI coding agent to be really self-sufficient in 
 - That way, if a screenshot is necessary, it's very clear why and what to look for and isolated the likely issue, since everything else has been already checked and validated.
 - If nonetheless a manual screenshot is unfortunately the only unavoidable way to close the feedback loop, make sure that error messages give all the info required for the ai coding agent to quickly understand (e.g. expand to show details)
 
+### Unified Log Observability
+
+**The principle:** Your AI agent has limited ways to observe your app—typically terminal output and browser tools. Route all logs to a single location the agent can actually access.
+
+The agent can't see your browser's DevTools console. It can't see mobile device logs. It can't see logs scattered across multiple processes. But it *can* tail a file, read terminal output, or use browser automation to read a webpage.
+
+**Ask yourself:** Where can my AI agent observe output? Then make sure *all* logs from *all* parts of the system flow there.
+
+**Examples by context:**
+
+- **Web apps:** Bridge frontend console logs to the backend server log (a tiny dev-mode shim that POSTs `console.*` calls to an endpoint). Now the agent sees everything by tailing one log. Alternatively, bridge backend logs to the frontend and let the agent use browser tools to read them.
+
+- **Desktop/Electron apps:** Consolidate main process, renderer, and any child process logs into a single log file or terminal stream.
+
+- **Mobile apps:** In development, forward device logs to a local server or file the agent can access. Consider a debug panel in the app itself that accumulates logs visibly.
+
+- **Multi-service architectures:** Aggregate logs from all services to one place—whether that's a shared log file, a log aggregation endpoint, or a debug dashboard.
+
+**The meta-principle:** Think about what observation tools your AI agent has, then architect your logging to flow to those tools. This is quick to build, amazingly useful for agent self-sufficiency, and helpful for humans too.
+
 ### Automated browser testing
 * The AI coding agent might have access to operate a Chrome browser.
 	- Definitely check out the capabilities. For Cursor it's https://cursor.com/docs/agent/browser

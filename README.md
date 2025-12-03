@@ -110,6 +110,6 @@ Let's execute the plan!
 
 ## Acknowledgements
 
-- I got tons of inspiration from [Jesse Vincent](https://github.com/obra), especially [this blog post](https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/) and this [repository](https://github.com/obra/superpowers).
+- I got tons of inspiration from [Jesse Vincent](https://github.com/obra), especially [this blog post on using coding agents in general](https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/) this [blog post on self-sufficiency](https://blog.fsck.com/2025/12/02/helping-agents-debug-webapps/) and this [repository](https://github.com/obra/superpowers).
 - I absolutely loved [humanlayer's "Writing a good Claude.md" post](https://www.humanlayer.dev/blog/writing-a-good-claude-md) and incorporated insights into this repo.
 - It was very cool to see these insights cohere with [Anthropic's experience applying the Claude Agent SDK](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
