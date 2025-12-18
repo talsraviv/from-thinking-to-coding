@@ -18,7 +18,4 @@
 
 Generally aim for two or three phases that logically stack on each other. Don't break up changes too much.
 
-## Design quality
-
-For system design quality principles, see @engineering-principles/
 

@@ -65,7 +65,9 @@ Each task should have:
 
 ## Design decisions
 
-For design quality principles, see `@engineering-principles/simple-made-easy.md`
+For system design quality principles, important to incorporate @engineering-principles/
+
+For agent self-sufficiency patterns, important to incorporate @self-sufficiency/
 
 ## Remember
 
