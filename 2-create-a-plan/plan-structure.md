@@ -71,4 +71,4 @@ For agent self-sufficiency patterns, important to incorporate @self-sufficiency/
 
 ## Remember
 
-DRY. YAGNI. TDD. Frequent commits.
+@engineering-principles/ (DRY, YAGNI). @self-sufficiency/ (TDD). Frequent commits.
