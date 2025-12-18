@@ -27,7 +27,11 @@
 
 - What are best practices for the chosen technologies that we must incorporate
 
-## Important to read @self-sufficiency.md here
+## Important to read @self-sufficiency/ here
 
-Design this in a way to really empower an ai coding agent to be self sufficient
+Design this in a way to really empower an ai coding agent to be self sufficient.
+
+## Important to read @engineering-principles/ here
+
+System design decisions should follow the principles.
 

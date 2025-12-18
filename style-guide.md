@@ -10,6 +10,8 @@ Focus on the minimum information needed to accomplish the purpose and no more.
 
 Trust and empower the AI coding agent who will be executing this.
 
+No concluding errata. Don't add "future considerations," "next steps," "benefits," or "implementation summary" sections. All important future work belongs in the plan itself. Flag open questions at the top, not in a conclusion.
+
 ## The Elements of Style - Abridged for AI Agents
 
 _Condensed from William Strunk Jr.'s public domain text_
