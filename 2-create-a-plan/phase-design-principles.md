@@ -13,9 +13,3 @@
   - Bad: "Implement authentication" or detailed code snippets
 - End each phase with software fully running: restart servers, verify latest changes work, etc.
 - No extra complexity or extra scope beyond what we discussed. The plan should lead to simple, elegant, minimal code that does the job perfectly.
-
-## Phase count
-
-Generally aim for two or three phases that logically stack on each other. Don't break up changes too much.
-
-
